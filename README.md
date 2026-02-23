@@ -1,8 +1,8 @@
-#
-
 This repository is for [Valkyria Chronicles 3 Extra Edition](https://en.wikipedia.org/wiki/Valkyria_Chronicles_III) translation project.
-This is a different translation from the old incomplete 2014 project. Refer to changelist [here](../doc/Changelist from 2014 TL.md).
-You might also want
+
+This is a different translation from the old incomplete 2014 project. Refer to changelist in the doc directory.
+
+You might also want to check the Aces list there, as they differ from the old patch and/or fandom wiki.
 
 # Patching instructions
 
