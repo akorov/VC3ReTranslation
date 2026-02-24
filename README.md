@@ -62,7 +62,7 @@ It should return RemoteSigned.
 You should have a new ISO and a `NPJH50343` directory with DLCs in `3_GET_PATCHED_CONTENT_HERE`.
 
 7. To install DLCs in PPSSPP emulator, put `NPJH50343` into `memstick\PSP\GAME\`.
-If you don't know where memstick is, use `File->Open Memory Stick` in the emulator.
+If you don't know where memstick is, use `File->Open Memory Stick` in the emulator (on Windows), or `Settings->System->PSP Memory Stick->Memory stick folder` (should be present in some way on all platforms).
 If you have a prior installation of DLCs in there - **delete it entirely**. This patch trims duplicate content that was moved onto E2 disk.
 
 
