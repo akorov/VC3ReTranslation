@@ -8,10 +8,18 @@ You might also want to check the Aces list there, as they differ from the old pa
 
 Download the latest release on Releases page. Ignore the source zip. Only the release will contain everything needed for patching.
 
-1. You will need original Japanese PSN ISO dump, as well as DLCs.
+1. You will need original Japanese ISO dump, as well as DLCs.
+Supported ISOs:
 ```
+PSN version:
 ISO CRC32: 279895E4
 ISO MD5: 02CD1C0BB42181BD34D2FE711FB0558D
+```
+
+```
+UMD version:
+ISO CRC32: 6F0D3AA6
+ISO MD5: 5CB612D3062149C15130A73383A627D2
 ```
 
 2. The release will contain three folders with self-explanatory names.
