@@ -73,6 +73,15 @@ You should have a new ISO and a `NPJH50343` directory with DLCs in `3_GET_PATCHE
 If you don't know where memstick is, use `File->Open Memory Stick` in the emulator (on Windows), or `Settings->System->PSP Memory Stick->Memory stick folder` (should be present in some way on all platforms).
 If you have a prior installation of DLCs in there - **delete it entirely**. This patch trims duplicate content that was moved onto E2 disk.
 
+## Patching on Linux
+
+1. Install your distro's xdelta3 package (or make the program otherwise available in your PATH)
+2. Follow steps 1-4 for Windows to set up the structure. 
+3. Run provided bash script `patch_everything.sh`
+4. Follow step 7 for Windows to install the DLCs
+
+Note: provided scripts were only tested on Ubuntu in wsl.
+
 
 # Credits
 Translation/Editing/Proofreading/Additional textures - DoomyDoom
