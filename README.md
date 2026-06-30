@@ -57,14 +57,14 @@ or, alternatively, like this:
 
 5. You may need to allow powershell to run downloaded scripts. To do so, open Windows PowerShell through start menu (possibly as administrator) and run the following:
 ```
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted -Force
 ```
 
 You can confirm it worked by running:
 ```
 Get-ExecutionPolicy
 ```
-It should return RemoteSigned.
+It should return Unrestricted.
 
 6. Right click on the file `patch_everything.ps1` -> `Run with PowerShell`. Wait for patching to complete.
 You should have a new ISO and a `NPJH50343` directory with DLCs in `3_GET_PATCHED_CONTENT_HERE`.
